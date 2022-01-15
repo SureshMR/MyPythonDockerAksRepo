@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: mypythondockeraksrepo
-        image: capstoneprojectacr.azurecr.io/sureshmr/mypythondockeraksrepo:latest
+        image: capstoneprojectacr.azurecr.io/sureshmr/mypythondockeraksrepo:2
         ports:
         - containerPort: 5000
-# service type loadbalancer       
+# service type loadbalancer added      
 ---
 apiVersion: v1
 kind: Service
